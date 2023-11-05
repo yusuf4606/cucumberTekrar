@@ -11,11 +11,10 @@ import org.junit.runner.RunWith;
         "json:target/json-reports/cucumber.json",
         "junit:target/xml-report/cucumber.xml",
         "rerun:TestOuput/failed_scenerio.txt"},
-        features = "src/test/resources/features",
+        features = "@TestOuput/failed_scenerio.txt",
         glue = {"hooks","stepdefinitions"},
-        tags = "@bc",
         dryRun = false,
         monochrome = false)
 
-public class Runner {
+public class Failed_runner {
 }

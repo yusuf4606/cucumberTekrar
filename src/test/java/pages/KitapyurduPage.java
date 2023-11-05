@@ -13,6 +13,8 @@ public class KitapyurduPage {
     @FindBy(xpath = "//*[@id='search-input']")
     public WebElement aramaKutusu;
     @FindBy(xpath = "(//a[@data-title='Sepete Ekle'])[6]")
+    public WebElement altinciUrunSepeteEkle;
+    @FindBy(xpath = "(//a[@data-title='Sepete Ekle'])[1]")
     public WebElement ilkUrunSepeteEkle;
 
     @FindBy(xpath = "//h2[@id='swal2-title']")
@@ -29,6 +31,9 @@ public class KitapyurduPage {
     public WebElement cikisButonu;
     @FindBy(xpath = "//div[@id='cookiescript_accept']")
     public WebElement cerezKabul;
+@FindBy(xpath = "(//div[@class='cover'])[1]")
+    public WebElement ilkUrun;
+
 
 
 

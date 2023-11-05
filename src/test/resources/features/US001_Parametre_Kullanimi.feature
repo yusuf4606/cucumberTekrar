@@ -5,7 +5,7 @@ Feature: US001 Amazon Testi
     * kullanici 2 saniye bekler
 
 
-
+  @c
   Scenario: Arama kutusunda Nokia aratilir
     And kullanici parametreli method ile amazonda "Nokia" aratir
     And kullanici 2 saniye bekler

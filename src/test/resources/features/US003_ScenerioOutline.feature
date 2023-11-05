@@ -12,6 +12,7 @@ Feature: Kitapyurdunda login islemleri
       | kyEmail2 | b111t023 |
 
 
+
   Scenario Outline: KitapYurdu sayfasinda arama kutusunda kitap aratilir
     Given kullanici kitapyurdu sayfasina gider
     And kullanici 2 saniye bekler
