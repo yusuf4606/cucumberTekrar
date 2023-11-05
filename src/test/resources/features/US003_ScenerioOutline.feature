@@ -13,7 +13,7 @@ Feature: Kitapyurdunda login islemleri
 
 
 
-  Scenario Outline: KitapYurdu sayfasinda arama kutusunda kitap aratilir
+  Scenario Outline: KitapYurdu sayfasinda arama kutusunda kitap aratir
     Given kullanici kitapyurdu sayfasina gider
     And kullanici 2 saniye bekler
     Then kitapyurdu arama kutusunda verilen "<kitaplar>" aratilir
